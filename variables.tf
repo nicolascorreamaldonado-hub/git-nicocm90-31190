@@ -39,6 +39,16 @@ variable "ingress_port_list" {
 }
 
 
+variable "access_key" {
+
+
+}
+
+variable "secret_key" {
+
+
+}
+
 /*
 variable "public_subnet" {
     description = "cidr u-east-1"
