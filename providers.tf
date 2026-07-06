@@ -22,12 +22,3 @@ provider "aws" {
     tags = var.tags
   }
 }
-
-provider "aws" {
-  # Configuration options
-  region = "us-east-2"
-  alias  = "ohio"
-  default_tags {
-    tags = var.tags
-  }
-}
